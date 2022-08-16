@@ -9,13 +9,13 @@ You will practice using mathematics and Python in everyday tasks and learn how t
 Link to the project [Loan Calculator](https://hyperskill.org/projects/90).
 
 ## Stages:
-### :white_check_mark: Stage 1/4: Beginning
+### :ballot_box_with_check: Stage 1/4: Beginning
 Create a simple program that will print messages about loan calculations.
-### :white_check_mark: Stage 2/4: Dreamworld
+### :ballot_box_with_check: Stage 2/4: Dreamworld
 Communicate with the user to get input values, do some simple mathematical operations, and output the result.
-### :white_check_mark: Stage 3/4: Annuity payment
+### :ballot_box_with_check: Stage 3/4: Annuity payment
 Calculate real loan parameters using Python’s mathematical capabilities.
-### :white_check_mark: Stage 4/4: Differentiate payment 
+### :ballot_box_with_check: Stage 4/4: Differentiate payment 
 Make the loan calculator able to work with different types of payment and accept command-line arguments.
 
 ### Demo
