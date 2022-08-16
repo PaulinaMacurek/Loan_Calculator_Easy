@@ -1,8 +1,23 @@
 import math
 import argparse
 
-parse = argparse.Aargparse.ArgumentParser(description="This program calculate some loan parametrs.")
+parser = argparse.ArgumentParser(description="This program calculate some loan parametrs.")
 
+parser.add_argument("-i1", "--type", choices=["annuity", "diff"], required = True,
+                    help="You need to choose only one option from the list.")
+parser.add_argument("-i2", "--payment",
+                    help="'--payment' is the monthly payment amount. Valid only with '--type = annuity'.")
+parser.add_argument("-i3", "--principal",
+                    help="Enter the loan principal.")
+parser.add_argument("-i4", "--interest",
+                    help="Enter interest without a percent sign.")
+
+args = parser.parse_args() # The parse_args() method is used for reading argument strings from the command line
+print(f"Type: {args.type}")
+if args.payment:
+    print(f"Payment: {args.payment}")
+else:
+    print("Nie podałeś payment")
 
 def months_to_years(nr_months_to_calculate):
     nr_years = math.floor(nr_months_to_calculate / 12)
