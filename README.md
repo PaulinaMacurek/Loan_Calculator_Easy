@@ -19,3 +19,4 @@ Calculate real loan parameters using Python’s mathematical capabilities.
 Make the loan calculator able to work with different types of payment and accept command-line arguments.
 
 ### Demo
+![Alt-текст](https://github.com/PaulinaMacurek/Loan_Calculator_Easy/blob/master/demo.gif?raw=true&v=3&s=460 "Demo")
